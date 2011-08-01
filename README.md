@@ -13,7 +13,7 @@ If you're using the Symfony Standard Distribution, add the following to the deps
         target=/doctrine-oxm
 
     [DoctrineOXMBundle]
-        git=http://github.com/golovanov/DoctrineOXMBundle.git
+        git=http://github.com/doctrine/DoctrineOXMBundle.git
         target=/bundles/Doctrine/Bundle/OXMBundle
 
 Now, update the vendor libraries by running:
