@@ -35,9 +35,7 @@ EOT
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $xmlEntityManagerName = $input->getOption('xem') ?
-            $input->getOption('xem') :
-            $this->getContainer()->getParameter('doctrine.oxm.default_xml_entity_manager');
+        $xmlEntityManagerName = $input->getOption('xem') ? $input->getOption('xem') : 'default';
 
         $xmlEntityManagerService = sprintf('doctrine.oxm.%s_xml_entity_manager', $xmlEntityManagerName);
 
