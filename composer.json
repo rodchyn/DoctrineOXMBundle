@@ -1,0 +1,32 @@
+{
+    "name": "doctrine/doctrine-oxm-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 DoctrineOXMBundle",
+    "keywords": ["OXM", "XML"],
+    "homepage": "http://www.doctrine-project.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Fullmer",
+            "email": "richardfullmer@gmail.com"
+        },
+        {
+            "name": "Igor Golovanov",
+            "email": "igor.golovanov@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":                              ">=5.3.2",
+        "doctrine/oxm":                     "master-dev",
+        "symfony/doctrine-abstract-bundle": "2.0.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Doctrine\\Bundle\\OXMBundle": ""
+        }
+    },
+
+    "target-dir": "Doctrine/Bundle/OXMBundle"
+}
