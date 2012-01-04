@@ -2,7 +2,7 @@
 
 namespace Doctrine\Bundle\Mapping\Driver;
 
-use Doctrine\OXM\Mapping\Driver\YamlDriver as BaseYamlDriver;
+use Doctrine\OXM\Mapping\Driver\YAMLDriver as BaseYamlDriver;
 use Doctrine\OXM\OXMException;
 
 /**
