@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/doctrine-oxm-bundle",
+    "name": "rodchyn/doctrine-oxm-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 DoctrineOXMBundle",
     "keywords": ["OXM", "XML"],
